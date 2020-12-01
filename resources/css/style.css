@@ -42,6 +42,9 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 header .content {
