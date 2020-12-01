@@ -1,5 +1,5 @@
 # Project Name
-> Codecademy Project Fotomatic
+> Codecademy Project Fotomatic: debugging CSS
 
 ## Table of contents
 * [General info](#general-info)
@@ -15,9 +15,10 @@ Project goal is to fix a broken version of a responsive website called FotoMatic
 * use skils acquired in Chrome DevTools article to decipher and update the site's CSS
 * use Git version control
 * compare broken site with spec sheet to determine what is needed.  
+* this project occurs in this full-stack-path prior to teaching of media queries.  I did take notes on a previous path so I was aware (somewhat) of how to take care of this or at least be able find info on it.  I sympathize with anyone that is doing this without such knowledge.  
 
 ## Technologies
-* JavaScript ES6
+* CSS (incl media queries)
 * Markdown (for README.md)
 * Git and GitHub
 
@@ -31,7 +32,7 @@ None
 Project is: in progress
 
 ## Inspiration
-Codecademy Fotomatic Project intended to test persons in fixing issues related to display adn postioning with CSS
+Codecademy Fotomatic Project intended to test persons in debugging CSS
 
 ## Contact
 Created by KodiBearGit

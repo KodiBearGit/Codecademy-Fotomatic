@@ -28,6 +28,7 @@ html {
   display: block;
 }
 
+/* tablet sizes*/
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -77,6 +78,7 @@ header .mobile {
   display: none;
 }
 
+/* Tablet sizing*/
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -161,6 +163,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
+/* Tablet sizing*/
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -193,6 +196,7 @@ header .mobile {
   }
 }
 
+/* Mobile-phone sizing*/
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -243,6 +247,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/*>normal tablet sizes */
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -256,6 +261,7 @@ header .mobile {
   }
 }
 
+/* Tablet sizing*/
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
@@ -298,6 +304,7 @@ header .mobile {
   padding: 0 1%;
 }
 
+/* Tablet sizing*/
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -351,6 +358,7 @@ header .mobile {
   height: 1.875rem;
 }
 
+/* Tablet sizing*/
 @media only screen and (max-width: 760px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
@@ -385,6 +393,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
+/* Tablet sizing*/
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
