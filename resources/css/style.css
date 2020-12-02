@@ -357,11 +357,13 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+/*changed element to a class on content*/
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+/*changed element to a class on quote*/
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -409,8 +411,9 @@ footer .copyright {
   flex-grow: 1;
 }
 
+/* this looks off to me should be max-width */
 /* Tablet sizing*/
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
