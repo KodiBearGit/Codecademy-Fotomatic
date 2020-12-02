@@ -18,6 +18,7 @@ html {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
+  padding: 8px 3px;
 }
 
 .image-container {
@@ -76,6 +77,7 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {
@@ -87,18 +89,23 @@ header .mobile {
   display: none;
 }
 
-header .desktop .button {
+header .desktop .tablet {
   display: none;
 }
 
 /* Tablet sizing*/
 @media only screen and (max-width: 760px) {
+  header .desktop .tablet {
+    display: inline;
+  }
+
   header .desktop .button {
     display: inline;
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    text-decoration: none;
   }
 }
 
@@ -133,7 +140,8 @@ header .desktop .button {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-  }
+    text-decoration: none;
+  } 
 }
 
 
