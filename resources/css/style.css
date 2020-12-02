@@ -50,10 +50,8 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
-  font-family: Roboto, sans-serif;
+  padding: 0.88rem 1.875rem;
   font-weight: normal;
-  font-size: 16px;
   line-height: 1.6;
   color: #4A4A4A; 
 }
@@ -62,7 +60,6 @@ header .logo {
   flex: 1;
   color: #4A4A4A;
   text-decoration: none;
-  font-size: 24px;
 }
 
 header nav ul {
@@ -90,8 +87,23 @@ header .mobile {
   display: none;
 }
 
+header .desktop .button {
+  display: none;
+}
+
 /* Tablet sizing*/
 @media only screen and (max-width: 760px) {
+  header .desktop .button {
+    display: inline;
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}
+
+/* Mobile-phone sizing*/
+@media only screen and (max-width: 450px) {
   header .desktop {
     display: none;
   }
@@ -123,6 +135,8 @@ header .mobile {
     color: white;
   }
 }
+
+
 
 /* Sign Up Section */
 
