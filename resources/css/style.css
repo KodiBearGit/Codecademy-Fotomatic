@@ -27,6 +27,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%; /* added*/
 }
 
 /* tablet sizes*/
@@ -245,10 +246,8 @@ header .mobile {
   margin: 0 auto;
 }
 
-/*added section to reduce image sizes*/
-.image-container img {
-  display: block;
-  max-width: 100%;
+.feature .content {
+  padding: 40px 0;
 }
 
 .feature h2 {
@@ -317,6 +316,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
