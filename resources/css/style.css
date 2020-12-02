@@ -87,7 +87,7 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   header .mobile .button {
-    display: block;
+    display: inline-block;
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
